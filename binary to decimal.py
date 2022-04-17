@@ -1,0 +1,11 @@
+list=[1,0,0,1,1,0,1,1]
+length=len(list)
+sum=0
+k=1
+i=1
+while i<=length:
+    digit=list[-i]
+    sum=sum+digit*k
+    i=i+1
+    k=k*2
+print("decimal = ",sum)
